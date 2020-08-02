@@ -9,7 +9,7 @@ import scipy.sparse
 from PIL import Image
 import scipy.sparse.linalg
 from cv2.ximgproc import jointBilateralFilter
-from torch.utils.serialization import load_lua
+# from torch.utils.serialization import load_lua
 from numpy.lib.stride_tricks import as_strided
 
 def whiten(cF):
